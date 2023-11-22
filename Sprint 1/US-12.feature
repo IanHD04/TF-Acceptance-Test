@@ -6,7 +6,7 @@ Feature: US-12: Crear perfiles de reconocimiento
 
     Scenario: Entrar a la sección perfiles
         Given que el usuario está en la página principal y quiere registrar un nuevo perfil
-        When el usuario haga click en Perfiles/Registrar perfil
+        When el usuario haga click en <Perfiles> y luego en <Registrar perfil>
         Then se abrirá la ventana de registro de perfiles.
     Scenario: Crear un nuevo perfil
         Given que el usuario se encuentra en la ventana de registro de perfiles
